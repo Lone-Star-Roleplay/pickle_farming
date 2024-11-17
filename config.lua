@@ -5,19 +5,19 @@ Config.Language = "en"
 Config.Debug = true
 
 Config.Plant = {
-    WaterPerUse = 10, -- How many water points it should add to the plant.
+    WaterPerUse = 15,      -- How many water points it should add to the plant.
 
-    WaterTime = 5, -- How long to water the plant.
-    HarvestTime = 5, -- How long to harvest the plant.
-    PlantTime = 5, -- How long to plant the seed.
+    WaterTime = 4,         -- How long to water the plant.
+    HarvestTime = 4,       -- How long to harvest the plant.
+    PlantTime = 4,         -- How long to plant the seed.
 
-    WaterPostDelay = 0, -- Cooldown for Watering.
-    MaxPlayerPlants = 5, -- Maximum plants a player can grow at a time.
+    WaterPostDelay = 0,    -- Cooldown for Watering.
+    MaxPlayerPlants = 5,   -- Maximum plants a player can grow at a time.
     RenderDistance = 30.0, -- Distance to render spawned plants.
 
     -- Don't change the below unless needed.
 
-    GrowingTick = 10, -- How often to tick the growing loop (only when growing).
+    GrowingTick = 10,      -- How often to tick the growing loop (only when growing).
     GrowingPerTick = 0.01, -- How much to add to the percent in the growing lerp.
 }
 
@@ -33,12 +33,12 @@ Config.Seeds = {
                 Start = vector4(0.0, 1.0, -1.0, 0.0),
                 End = vector4(0.0, 0.0, 1.0, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "corn_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
+        Rewards = {
+            { name = "corn_raw", min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
         WaterNeeded = 100,
     },
     ['tomato_seed'] = {
@@ -48,12 +48,12 @@ Config.Seeds = {
                 Start = vector4(0.0, 1.0, -1.0, 0.0),
                 End = vector4(0.0, 0.0, 1.0, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "tomato_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
+        Rewards = {
+            { name = "tomato_raw", min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
         WaterNeeded = 100,
     },
     ['wheat_seed'] = {
@@ -63,12 +63,12 @@ Config.Seeds = {
                 Start = vector4(0.0, 1.0, -1.0, 0.0),
                 End = vector4(0.0, 0.0, 1.0, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "wheat_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
+        Rewards = {
+            { name = "wheat_raw", min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
         WaterNeeded = 100,
     },
     ['broccoli_seed'] = {
@@ -78,12 +78,12 @@ Config.Seeds = {
                 Start = vector4(0.0, 1.0, -1.0, 0.0),
                 End = vector4(0.0, 0.0, 1.0, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "broccoli_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
+        Rewards = {
+            { name = "broccoli_raw", min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
         WaterNeeded = 100,
     },
     ['carrot_seed'] = {
@@ -93,12 +93,12 @@ Config.Seeds = {
                 Start = vector4(0.0, 1.0, -1.0, 0.0),
                 End = vector4(0.0, 0.0, 1.0, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "carrot_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
+        Rewards = {
+            { name = "carrot_raw", min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
         WaterNeeded = 100,
     },
     ['potato_seed'] = {
@@ -108,12 +108,12 @@ Config.Seeds = {
                 Start = vector4(0.0, 1.0, -1.0, 0.0),
                 End = vector4(0.0, 0.0, 1.0, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "potato_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
+        Rewards = {
+            { name = "potato_raw", min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
         WaterNeeded = 100,
     },
     ['pickle_seed'] = {
@@ -123,65 +123,151 @@ Config.Seeds = {
                 Start = vector4(0.0, 1.0, -1.0, 0.0),
                 End = vector4(0.0, 0.0, 1.0, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "pickle_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
+        Rewards = {
+            { name = "pickle_raw", min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
         WaterNeeded = 100,
     },
-    ['weed_seed'] = {
+
+    --Weed Strains
+    ['weed_whitewidow_seed'] = {
         Prop = {
             Model = `bkr_prop_weed_lrg_01a`,
             Offsets = {
                 Start = vector4(0.0, 1.0, -2.4, 0.0),
                 End = vector4(0.0, 0.0, 1.8, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "weed_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
+        Rewards = {
+            { name = "weed_whitewidow", min = 1, max = 2 },
+            { name = "weed_whitewidow_seed",   min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
         WaterNeeded = 100,
     },
+    ['weed_skunk_seed'] = {
+        Prop = {
+            Model = `bkr_prop_weed_lrg_01a`,
+            Offsets = {
+                Start = vector4(0.0, 1.0, -2.4, 0.0),
+                End = vector4(0.0, 0.0, 1.8, 0.0),
+            }
+        },
+        Rewards = {
+            { name = "weed_skunk", min = 1, max = 2 },
+            { name = "weed_skunk_seed",   min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
+        WaterNeeded = 100,
+    },
+    ['weed_purplehaze_seed'] = {
+        Prop = {
+            Model = `bkr_prop_weed_lrg_01a`,
+            Offsets = {
+                Start = vector4(0.0, 1.0, -2.4, 0.0),
+                End = vector4(0.0, 0.0, 1.8, 0.0),
+            }
+        },
+        Rewards = {
+            { name = "weed_purplehaze", min = 2, max = 5 },
+            { name = "weed_purplehaze_seed",   min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
+        WaterNeeded = 100,
+    },
+    ['weed_ogkush_seed'] = {
+        Prop = {
+            Model = `bkr_prop_weed_lrg_01a`,
+            Offsets = {
+                Start = vector4(0.0, 1.0, -2.4, 0.0),
+                End = vector4(0.0, 0.0, 1.8, 0.0),
+            }
+        },
+        Rewards = {
+            { name = "weed_ogkush", min = 2, max = 4 },
+            { name = "weed_ogkush_seed",   min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
+        WaterNeeded = 100,
+    },
+    ['weed_amnesia_seed'] = {
+        Prop = {
+            Model = `bkr_prop_weed_lrg_01a`,
+            Offsets = {
+                Start = vector4(0.0, 1.0, -2.4, 0.0),
+                End = vector4(0.0, 0.0, 1.8, 0.0),
+            }
+        },
+        Rewards = {
+            { name = "weed_amnesia", min = 2, max = 4 },
+            { name = "weed_amnesia_seed",   min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
+        WaterNeeded = 100,
+    },
+    ['weed_ak47_seed'] = {
+        Prop = {
+            Model = `bkr_prop_weed_lrg_01a`,
+            Offsets = {
+                Start = vector4(0.0, 1.0, -2.4, 0.0),
+                End = vector4(0.0, 0.0, 1.8, 0.0),
+            }
+        },
+        Rewards = {
+            { name = "weed_ak47", min = 2, max = 4 },
+            { name = "weed_ak47_seed",   min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
+        WaterNeeded = 100,
+    },
+
     ['cocaine_seed'] = {
         Prop = {
-            Model = `bkr_prop_weed_lrg_01a`,
+            Model = `prop_plant_cane_02a`,
             Offsets = {
                 Start = vector4(0.0, 1.0, -2.4, 0.0),
                 End = vector4(0.0, 0.0, 1.8, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "cocaine_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
+        Rewards = {
+            { name = "coca_leaf",    min = 3, max = 5 },
+            { name = "cocaine_seed", min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
         WaterNeeded = 100,
     },
     ['heroin_seed'] = {
         Prop = {
-            Model = `bkr_prop_weed_lrg_01a`,
+            Model = `prop_plant_01b`,
             Offsets = {
-                Start = vector4(0.0, 1.0, -2.4, 0.0),
-                End = vector4(0.0, 0.0, 1.8, 0.0),
+                Start = vector4(0.0, 1.0, -0.5, 0.0),
+                End = vector4(0.0, 1.0, 0.5, 0.0),
             }
-        }, 
-        Rewards = {
-            {name = "heroin_raw", min = 1, max = 2},
         },
-        Materials = {"Farm", "Farm2", "Farm3"}, -- If planting location has this material, plant.
-        Zones = {vector4(-98.9300, 1911.5332, 196.8396, 10.0)}, -- If planting location is inside this range, plant.
-        WaterNeeded = 10,
+        Rewards = {
+            { name = "poppyresin",  min = 3, max = 5 },
+            { name = "heroin_seed", min = 1, max = 2 },
+        },
+        Materials = { "Farm", "Farm2", "Farm3" },               -- If planting location has this material, plant.
+        Zones = { vector4(-98.9300, 1911.5332, 196.8396, 10.0) }, -- If planting location is inside this range, plant.
+        WaterNeeded = 100,
     },
 }
 
 Config.ExchangeSettings = {
-    RenderDistance = 30.0, -- If exchange is a ped, what distance to display the ped.
+    RenderDistance = 30.0,   -- If exchange is a ped, what distance to display the ped.
     EnableSkillCheck = true, -- DISABLE IF NOT USING OX_LIB.
-    ProcessTime = 5, -- Only used when EnableSkillCheck is false.
+    ProcessTime = 5,         -- Only used when EnableSkillCheck is false.
 }
 
 Config.Exchange = {
@@ -196,13 +282,13 @@ Config.Exchange = {
         },
         Location = vector4(2423.5002, 4985.6943, 45.9, 43.7853),
         Catalog = {
-            ["corn_raw"] = {required = 2, name = "corn", min = 1, max = 1},
-            ["tomato_raw"] = {required = 2, name = "tomato", min = 1, max = 1},
-            ["wheat_raw"] = {required = 2, name = "wheat", min = 1, max = 1},
-            ["broccoli_raw"] = {required = 2, name = "broccoli", min = 1, max = 1},
-            ["carrot_raw"] = {required = 2, name = "carrot", min = 1, max = 1},
-            ["potato_raw"] = {required = 2, name = "potato", min = 1, max = 1},
-            ["pickle_raw"] = {required = 2, name = "pickle", min = 1, max = 1},
+            ["corn_raw"] = { required = 2, name = "corn", min = 1, max = 1 },
+            ["tomato_raw"] = { required = 2, name = "tomato", min = 1, max = 1 },
+            ["wheat_raw"] = { required = 2, name = "wheat", min = 1, max = 1 },
+            ["broccoli_raw"] = { required = 2, name = "broccoli", min = 1, max = 1 },
+            ["carrot_raw"] = { required = 2, name = "carrot", min = 1, max = 1 },
+            ["potato_raw"] = { required = 2, name = "potato", min = 1, max = 1 },
+            ["pickle_raw"] = { required = 2, name = "pickle", min = 1, max = 1 },
         }
     },
     -- Selling
@@ -217,20 +303,20 @@ Config.Exchange = {
         NPCModel = `a_m_m_farmer_01`,
         Location = vector4(1300.8643, 4318.9258, 37.1653, 301.4995),
         Catalog = {
-            ["corn"] = {name = "money", min = 20, max = 40},
-            ["tomato"] = {name = "money", min = 20, max = 40},
-            ["wheat"] = {name = "money", min = 20, max = 40},
-            ["broccoli"] = {name = "money", min = 20, max = 40},
-            ["carrot"] = {name = "money", min = 20, max = 40},
-            ["potato"] = {name = "money", min = 20, max = 40},
-            ["pickle"] = {name = "money", min = 20, max = 40},
+            ["corn"] = { name = "money", min = 20, max = 40 },
+            ["tomato"] = { name = "money", min = 20, max = 40 },
+            ["wheat"] = { name = "money", min = 20, max = 40 },
+            ["broccoli"] = { name = "money", min = 20, max = 40 },
+            ["carrot"] = { name = "money", min = 20, max = 40 },
+            ["potato"] = { name = "money", min = 20, max = 40 },
+            ["pickle"] = { name = "money", min = 20, max = 40 },
         }
     },
 }
 
 Config.Blips = {
     {
-        Label = "Job: Farming (Fields)",
+        Label = "Job: Farming (Fie lds)",
         ID = 677,
         Color = 47,
         Scale = 0.85,
